@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="fr" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> BURNOT Kevin — Portfolio</title>
+  <meta name="description" content="Portfolio de ★ Ton Nom — projets d'école et personnels, CV et contacts." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="/JS/theme-init.js"></script>
+  <!-- Tailwind CDN (pratique pour démarrer). Pour un projet pro, installe Tailwind en build. -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Palette personnalisée minimale
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui'] },
+          colors: {
+            brand: {
+              DEFAULT: '#2563eb',
+              50:'#eff6ff',100:'#dbeafe',200:'#bfdbfe',300:'#93c5fd',400:'#60a5fa',500:'#3b82f6',600:'#2563eb',700:'#1d4ed8',800:'#1e40af',900:'#1e3a8a'
+            }
+          }
+        }
+      },
+      darkMode: 'class'
+    }
+  </script>
+
+<link rel="stylesheet" href="/CSS/style.css">
+
+</head>
+<body class="bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+  <!-- Header / Nav -->
+  <header class="sticky top-0 z-50 backdrop-blur supports-backdrop-blur:bg-white/70 dark:supports-backdrop-blur:bg-slate-950/70 border-b border-slate-200/60 dark:border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#hero" class="font-extrabold text-xl tracking-tight">Welcome</a>
+      <nav class="hidden md:flex items-center gap-2">
+        <a href="#projects" class="px-3 py-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800">Projects</a>
+        <a href="#about" class="px-3 py-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800">About</a>
+        <a href="#contact" class="px-3 py-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800">Contact</a>
+        <a href="/images/CV_BURNOT_Kevin.pdf" class="px-3 py-2 rounded-xl bg-brand text-white hover:bg-brand-700 transition">My CV</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <!-- Bouton thème clair/sombre -->
+        <button id="themeToggle" aria-label="Basculer le thème" class="p-2 rounded-xl border border-slate-200 dark:border-slate-800 hover:bg-slate-100 dark:hover:bg-slate-800">
+          <svg id="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 hidden"><path d="M12 18a6 6 0 100-12 6 6 0 000 12z"/><path fill-rule="evenodd" d="M12 2.25a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zm0 16.5a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0V19.5a.75.75 0 01.75-.75zM4.72 4.72a.75.75 0 011.06 0l1.06 1.06a.75.75 0 01-1.06 1.06L4.72 5.78a.75.75 0 010-1.06zm12.44 12.44a.75.75 0 011.06 0l1.06 1.06a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zM2.25 12a.75.75 0 01.75-.75h1.5a.75.75 0 010 1.5H3a.75.75 0 01-.75-.75zm16.5 0a.75.75 0 01.75-.75h1.5a.75.75 0 010 1.5h-1.5a.75.75 0 01-.75-.75zM4.72 19.28a.75.75 0 010-1.06l1.06-1.06a.75.75 0 111.06 1.06L5.78 19.28a.75.75 0 01-1.06 0zm12.44-12.44a.75.75 0 010-1.06l1.06-1.06a.75.75 0 111.06 1.06L18.22 6.84a.75.75 0 01-1.06 0z" clip-rule="evenodd"/></svg>
+          <svg id="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 hidden"><path d="M21.752 15.002A9.718 9.718 0 0112 21.75c-5.385 0-9.75-4.365-9.75-9.75 0-4.25 2.73-7.86 6.544-9.164.37-.13.77.086.846.47a7.5 7.5 0 008.804 8.804c.384.076.6.476.47.846  -.266.764-.607 1.49-1.012 2.18z"/></svg>
+        </button>
+        <button class="md:hidden p-2 rounded-xl border border-slate-200 dark:border-slate-800" aria-label="Ouvrir le menu" onclick="document.getElementById('mobile').classList.toggle('hidden')">☰</button>
+      </div>
+    </div>
+    <!-- Menu mobile -->
+    <div id="mobile" class="md:hidden hidden border-t border-slate-200 dark:border-slate-800">
+      <div class="max-w-6xl mx-auto px-4 py-2 flex flex-col gap-1">
+        <a href="#projects" class="px-3 py-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800">Projects</a>
+        <a href="#about" class="px-3 py-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800">About</a>
+        <a href="#contact" class="px-3 py-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800">Contact</a>
+        <a href="CV.pdf" class="px-3 py-2 rounded-xl bg-brand text-white hover:bg-brand-700 transition">My CV</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="max-w-6xl mx-auto px-4 pt-12 pb-8">
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+      <div class="flex justify-center mb-6">
+          <img src="/images/PP_kevin.jpg" alt="Photo de Kevin Burnot" 
+          class="object-[60%_40%] w-56 h-56 rounded-full object-cover shadow-lg border-3 border-white dark:border-slate-900">
+      </div>
+        <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight">Hello, I am <span class="text-brand">Kevin BURNOT</span></h1>
+        <h2 class="sm:text-2xl">Alias @RalinoTech</h2>
+        <p class="mt-3 text-slate-600 dark:text-slate-300">Currently in last year of my Master Degree at CPE Lyon in Computer Science with a specialisation in service robotics. <strong>I am looking for an internship abroad starting in September/October 2025</strong>.</p>
+        <div class="mt-5 flex flex-wrap gap-3">
+          <a href="/HTML/projects.html" class="px-4 py-2 rounded-xl bg-brand text-white hover:bg-brand-700">View my projects</a>
+          <a href="mailto:burnotkevin@gmail.com" class="px-4 py-2 rounded-xl border border-slate-300 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800">Contact me</a>
+          <a href="https://www.linkedin.com/in/kevinburnot/" target="_blank" rel="noopener" class="px-4 py-2 rounded-xl border border-slate-300 dark:border-slate-700">LinkedIn</a>
+        </div>
+        <!-- <ul class="mt-6 flex flex-wrap gap-2 text-sm text-slate-500 dark:text-slate-400">
+          <li class="px-3 py-1 rounded-full border">Python</li>
+          <li class="px-3 py-1 rounded-full border">SQL</li>
+          <li class="px-3 py-1 rounded-full border">React</li>
+          <li class="px-3 py-1 rounded-full border">Tailwind</li>
+        </ul> -->
+      </div>
+      <div class="relative">
+        <!-- Remplace par ta photo ou un mockup -->
+        <img src="/images/Illustration_kevin.png" alt="aperçu de projets" class="rounded-2xl border border-slate-200 dark:border-slate-800 w-full object-cover" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="max-w-6xl mx-auto px-4 py-8">
+    <div class="flex items-end justify-between gap-4">
+      <h2 class="text-2xl font-bold">Selected Projects</h2>
+      <a href="/HTML/projects.html" target="_blank" class="text-sm text-brand hover:underline">All Projects →</a>
+    </div>
+
+    <div id="grid" data-mode="featured" data-featured-limit="3"
+      class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6"></div>
+    <script src="/JS/app-projects.js" defer></script>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-6xl mx-auto px-4 pb-16">
+    <div class="grid md:grid-cols-1 gap-8"> <!-- by default 3 -->
+      <div>
+        <h2 class="text-2xl font-bold">Contact</h2>
+        <p class="text-slate-600 dark:text-slate-300 mt-2">You can write to me directly by email at <strong><a href="mailto:burnotkevin@gmail.com">burnotkevin@gmail.com</a></strong></p>
+      </div>
+      <!-- TODO la base de donnée -->
+      <!-- <form class="md:col-span-2 grid gap-4" action="#" method="POST">
+        <div class="grid sm:grid-cols-2 gap-4">
+          <label class="grid gap-1">Name<input required name="name" class="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900" placeholder="Your Name"/></label>
+          <label class="grid gap-1">Email<input required type="email" name="email" class="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900" placeholder="your@email.com"/></label>
+        </div>
+        <label class="grid gap-1">Message<textarea required name="message" rows="5" class="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900" placeholder="Tell me more…"></textarea></label>
+        <button class="justify-self-start px-4 py-2 rounded-xl bg-brand text-white hover:bg-brand-700">Send</button>
+      </form> -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-400 dark:border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 py-6 text-sm text-slate-500 flex flex-wrap items-center justify-between gap-2">
+      <p>© <span id="year"></span> BURNOT - All rights reserved</p>
+      <div class="flex gap-3">
+         <p>Legal Notice<p>
+         <p>Privacy Policy<p>
+      </div>
+    </div>
+  </footer>
+
+<script src="/JS/site.js" defer></script>
+
+</body>
+</html>

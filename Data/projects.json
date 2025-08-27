@@ -1,0 +1,95 @@
+[
+  {
+    "id": "crawler-3d-mapping",
+    "title": "3D Mapping — Autonomous Crawler",
+    "year": 2025,
+    "cover": "/images/Mapping3D.png",
+    "summary": "3D environment mapping with an autonomous crawler: LiDAR acquisition, sensor fusion, point cloud generation and visualization.",
+    "tags": ["Python", "ROS2", "Gazebo", "3D-Cam", "Jetson Nano"],
+    "links": {
+      "code": "https://gitlab.com/cpelyon/rob/5eti-2024-2025/projet/Sujet_2_Crawler_Loc/S2_G2_Prudhon_Estignard_Peinado_Burnot_Chronowski",
+      "demo": "https://www.youtube.com/watch?v=RsB63CCdos0"
+    },
+    "featured": true
+  },
+  {
+    "id": "sorting-center-prototyping",
+    "title": "Prototyping — Sorting Center",
+    "year": 2025,
+    "cover": "/images/Prototypage.jpg",
+    "summary": "Design and prototyping of a sorting center: React UIs, specifications, user testing, and rapid iterations.",
+    "tags": ["Mechatronics", "ESP32", "Arduino C++", "3D-Modeling", "MIT-App-Inventor", "BLE", "Computer Vision"],
+    "links": {
+      "code": "https://gitlab.com/Jormunth/s9_burnot_chronowski_deleule_prototypage",
+      "demo": "https://www.youtube.com/watch?v=ROfbt70vUBM&feature=youtu.be"
+    },
+    "featured": true
+  },
+  {
+    "id": "escape-room",
+    "title": "Escape Room Development",
+    "year": 2024,
+    "cover": "/images/Escape_game.png",
+    "summary": "Connected escape room development: Node/Express orchestrations, MongoDB persistence, devices and real-time logic.",
+    "tags": ["Node-RED", "Mechatronics", "ESP32", "Arduino C++", "3D-Modeling", "Python"],
+    "links": {
+      "code": "https://gitlab.com/cpelyon/rob/4eti-2023-2024/projet_s8/sujet_1/s1_g4_ben-hassen_danjou_saint-auret_burnot_peinado_charrondiere",
+      "demo": "https://www.youtube.com/watch?v=IHsA6nLUx50"
+    },
+    "featured": true
+  },
+  {
+    "id": "vision-defect-detection",
+    "title": "Vision — Defect detection (YOLO)",
+    "year": 2024,
+    "cover": "/images/vision_defauts.jpg",
+    "summary": "Visual inspection pipeline: synthetic dataset, YOLOv8 training, mAP metrics, OpenCV integration.",
+    "tags": [],
+    "links": { "code": "", "demo": "" }
+  },
+  {
+    "id": "ros2-navigation",
+    "title": "ROS2 Navigation Stack (TurtleBot)",
+    "year": 2023,
+    "cover": "/images/turtlebot_nav.jpg",
+    "summary": "Nav2 setup: mapping, localization, and planning in simulated and real indoor environments.",
+    "tags": [],
+    "links": { "code": "", "demo": "" }
+  },
+  {
+    "id": "jetson-line-follower",
+    "title": "Jetson — Line follower",
+    "year": 2023,
+    "cover": "/images/jetson_line.jpg",
+    "summary": "Real-time image processing on Jetson Nano: filtering, trajectory detection, and motor control.",
+    "tags": [],
+    "links": { "code": "", "demo": "" }
+  },
+  {
+    "id": "portfolio-site",
+    "title": "Portfolio site (this one)",
+    "year": 2025,
+    "cover": "/images/Illustration_kevin.png",
+    "summary": "Personal website powered by Tailwind: accessibility, persistent dark mode, componentization, and lightweight CI.",
+    "tags": [],
+    "links": { "site": "/", "code": "" }
+  },
+  {
+    "id": "gazebo-warehouse",
+    "title": "Warehouse simulation (Gazebo)",
+    "year": 2024,
+    "cover": "/images/gazebo_warehouse.jpg",
+    "summary": "Warehouse modeling and multi-robot navigation scenarios under Gazebo and ROS2.",
+    "tags": [],
+    "links": { "code": "", "demo": "" }
+  },
+  {
+    "id": "sql-course",
+    "title": "Database project",
+    "year": 2022,
+    "cover": "/images/sql_project.jpg",
+    "summary": "Relational schema design, stored procedures, and indexing with PostgreSQL.",
+    "tags": [],
+    "links": { "code": "" }
+  }
+]
