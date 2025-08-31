@@ -3,7 +3,7 @@
     "id": "crawler-3d-mapping",
     "title": "3D Mapping — Autonomous Crawler",
     "year": 2025,
-    "cover": "/images/Mapping3D.png",
+    "cover": "../images/Mapping3D.png",
     "summary": "3D environment mapping with an autonomous crawler: LiDAR acquisition, sensor fusion, point cloud generation and visualization.",
     "tags": ["Python", "ROS2", "Gazebo", "3D-Cam", "Jetson Nano"],
     "links": {
@@ -16,7 +16,7 @@
     "id": "sorting-center-prototyping",
     "title": "Prototyping — Sorting Center",
     "year": 2025,
-    "cover": "/images/Prototypage.jpg",
+    "cover": "../images/Prototypage.jpg",
     "summary": "Design and prototyping of a sorting center: React UIs, specifications, user testing, and rapid iterations.",
     "tags": ["Mechatronics", "ESP32", "Arduino C++", "3D-Modeling", "MIT-App-Inventor", "BLE", "Computer Vision"],
     "links": {
@@ -29,7 +29,7 @@
     "id": "escape-room",
     "title": "Escape Room Development",
     "year": 2024,
-    "cover": "/images/Escape_game.png",
+    "cover": "../images/Escape_game.png",
     "summary": "Connected escape room development: Node/Express orchestrations, MongoDB persistence, devices and real-time logic.",
     "tags": ["Node-RED", "Mechatronics", "ESP32", "Arduino C++", "3D-Modeling", "Python"],
     "links": {
@@ -42,7 +42,7 @@
     "id": "Exploration-Robot",
     "title": "Robot for Exploration",
     "year": 2024,
-    "cover": "/images/Explorator.png",
+    "cover": "../images/Explorator.png",
     "summary": "Inter-departmental project: I mainly worked on setting up the Raspberry Pi and the LiDAR, then I worked on the data flow between the robot and the control station.",
     "tags": ["Raspberry", "LIDAR", "STM32", "Web", "Python", "C"],
     "links": { "code on demand": "https://github.com/RalinoTech/Exploration-Robot---Cross-disciplinary-Project", "demo": "https://youtu.be/jXW0-IyAYGk" }
@@ -51,7 +51,7 @@
     "id": "Road Follower",
     "title": "Simulated Car Control via CAN",
     "year": 2024,
-    "cover": "/images/SAT.png",
+    "cover": "../images/SAT.png",
     "summary": "The goal was to get familiar with the simulator and control the car by sending CAN frames so that it could autonomously follow the road.",
     "tags": ["CAN", "C"],
     "links": { "code on demand": "https://gitlab.com/RalinoTech/cpe-lyon-tp-sat-2024", "demo": "" }
@@ -60,7 +60,7 @@
     "id": "Drone",
     "title": "Exploring ROS with Drone Control",
     "year": 2024,
-    "cover": "/images/Drone.png",
+    "cover": "../images/Drone.png",
     "summary": "Applied ROS fundamentals (nodes, topics, messages, actions, pub/sub) to drone control and QR-code detection",
     "tags": ["ROS2", "Python"],
     "links": { "code on demand": "https://gitlab.com/RalinoTech/cpe-lyon-tp-ros-2024", "demo": "https://www.youtube.com/watch?v=Ce6lg5v3Wqs" }
@@ -69,7 +69,7 @@
     "id": "pepper",
     "title": "Robot Pepper Development",
     "year": 2024,
-    "cover": "/images/Illustration_kevin.png",
+    "cover": "../images/Illustration_kevin.png",
     "summary": "Studying the functionality of the Pepper robot and programming it with Python 2.7.",
     "tags": ["Python"],
     "links": { "code on demand": "https://gitlab.com/RalinoTech/cpe-lyon-tp-ihr-2024", "demo": "https://youtu.be/qjC-WVYdb6E" }
@@ -78,7 +78,7 @@
     "id": "vision",
     "title": "Getting Started with Computer Vision",
     "year": 2024,
-    "cover": "/images/muffinkevin.png",
+    "cover": "../images/muffinkevin.png",
     "summary": "Discovering Computer Vision: From Basic Algorithms to Advanced Models like YOLO/SSD, with Custom Object Recognition",
     "tags": ["Python", "Computer Vision", "Roboflow", "Ultralytics"],
     "links": { "code on demand": "https://gitlab.com/RalinoTech/cpe-lyon-tp-vision-2024", "demo": "" }
@@ -87,7 +87,7 @@
     "id": "motor",
     "title": "Precise Motor Control Using STM32",
     "year": 2024,
-    "cover": "/images/motor.png",
+    "cover": "../images/motor.png",
     "summary": "Accurate control of a DC motor equipped with a magnetic encoder using a PID controller, for regulating speed, absolute position, and relative position based on IMU data.",
     "tags": ["C", "STM32", "IMU", "Encoder"],
     "links": { "code on demand":"https://gitlab.com/RalinoTech/systemes-motorises", "demo":"https://youtu.be/RdbibQQ8OuU" }

@@ -38,7 +38,7 @@ body {
   font-family: Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif;
   background-image: 
     linear-gradient(rgba(255, 255, 255, 0.291), rgba(255, 255, 255, 0.291)), /* voile plus clair */
-    url("/images/fond_clair.jpg"); /* fond clair */
+    url("../images/fond_clair.jpg"); /* fond clair */
   background-size: cover;          /* l’image s’adapte à la taille de l’écran */
   background-repeat: no-repeat;    /* évite la répétition */
   background-attachment: fixed;    /* fixe le fond en place */
@@ -49,7 +49,7 @@ body {
 .dark body {
   background-image: 
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), /* voile plus foncé */
-    url("/images/fond_dark.jpg"); /* fond sombre */
+    url("../images/fond_dark.jpg"); /* fond sombre */
 }
 
     /* Simple line clamp (avoids extra plugin) */
