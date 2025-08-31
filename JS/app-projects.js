@@ -41,7 +41,7 @@
     const links = Object.entries(p.links || {})
       .filter(([, v]) => v)
       .map(([k, v]) => {
-        const label = k==='code' ? 'Code' : k==='demo' ? 'Demo' : k==='paper' ? 'Paper' : k==='site' ? 'Site' : 'Link';
+        const label = k==='code' ? 'Code' : k==='code on demand' ? 'Code on demand' : k==='demo' ? 'Demo' : k==='paper' ? 'Paper' : k==='site' ? 'Site' : 'Link';
         return `<a href="${v}" target="_blank" rel="noopener" class="text-brand text-sm hover:underline">${label}</a>`;
       })
       .join('<span class="text-slate-300 dark:text-slate-700">·</span>');
@@ -54,7 +54,7 @@
             <h3 class="font-semibold text-lg">${p.title}</h3>
             ${year}
           </div>
-          <p class="mt-1 text-sm text-slate-600 dark:text-slate-300 clamp-3">${p.summary || ''}</p>
+          <p class="mt-1 text-sm text-slate-600 dark:text-slate-300 clamp-4">${p.summary || ''}</p>
           <div class="mt-3 flex flex-wrap gap-2 text-xs text-slate-600 dark:text-slate-300">${tags}</div>
           <div class="mt-4 flex flex-wrap gap-3">${links}</div>
         </div>

@@ -7,7 +7,7 @@
     "summary": "3D environment mapping with an autonomous crawler: LiDAR acquisition, sensor fusion, point cloud generation and visualization.",
     "tags": ["Python", "ROS2", "Gazebo", "3D-Cam", "Jetson Nano"],
     "links": {
-      "code": "https://gitlab.com/cpelyon/rob/5eti-2024-2025/projet/Sujet_2_Crawler_Loc/S2_G2_Prudhon_Estignard_Peinado_Burnot_Chronowski",
+      "code": "https://gitlab.com/RalinoTech/web_cpe_lyon_tp_crawler_2025#",
       "demo": "https://www.youtube.com/watch?v=RsB63CCdos0"
     },
     "featured": true
@@ -20,7 +20,7 @@
     "summary": "Design and prototyping of a sorting center: React UIs, specifications, user testing, and rapid iterations.",
     "tags": ["Mechatronics", "ESP32", "Arduino C++", "3D-Modeling", "MIT-App-Inventor", "BLE", "Computer Vision"],
     "links": {
-      "code": "https://gitlab.com/Jormunth/s9_burnot_chronowski_deleule_prototypage",
+      "code": "https://gitlab.com/RalinoTech/web_cpe_lyon_tp_proto_2024#",
       "demo": "https://www.youtube.com/watch?v=ROfbt70vUBM&feature=youtu.be"
     },
     "featured": true
@@ -33,63 +33,63 @@
     "summary": "Connected escape room development: Node/Express orchestrations, MongoDB persistence, devices and real-time logic.",
     "tags": ["Node-RED", "Mechatronics", "ESP32", "Arduino C++", "3D-Modeling", "Python"],
     "links": {
-      "code": "https://gitlab.com/cpelyon/rob/4eti-2023-2024/projet_s8/sujet_1/s1_g4_ben-hassen_danjou_saint-auret_burnot_peinado_charrondiere",
+      "code": "https://gitlab.com/RalinoTech/web_cpe_lyon_tp_escape_game_2024#",
       "demo": "https://www.youtube.com/watch?v=IHsA6nLUx50"
     },
     "featured": true
   },
   {
-    "id": "vision-defect-detection",
-    "title": "Vision — Defect detection (YOLO)",
+    "id": "Exploration-Robot",
+    "title": "Robot for Exploration",
     "year": 2024,
-    "cover": "/images/vision_defauts.jpg",
-    "summary": "Visual inspection pipeline: synthetic dataset, YOLOv8 training, mAP metrics, OpenCV integration.",
-    "tags": [],
-    "links": { "code": "", "demo": "" }
+    "cover": "/images/Explorator.png",
+    "summary": "Inter-departmental project: I mainly worked on setting up the Raspberry Pi and the LiDAR, then I worked on the data flow between the robot and the control station.",
+    "tags": ["Raspberry", "LIDAR", "STM32", "Web", "Python", "C"],
+    "links": { "code on demand": "https://github.com/RalinoTech/Exploration-Robot---Cross-disciplinary-Project", "demo": "https://youtu.be/jXW0-IyAYGk" }
   },
   {
-    "id": "ros2-navigation",
-    "title": "ROS2 Navigation Stack (TurtleBot)",
-    "year": 2023,
-    "cover": "/images/turtlebot_nav.jpg",
-    "summary": "Nav2 setup: mapping, localization, and planning in simulated and real indoor environments.",
-    "tags": [],
-    "links": { "code": "", "demo": "" }
+    "id": "Road Follower",
+    "title": "Simulated Car Control via CAN",
+    "year": 2024,
+    "cover": "/images/SAT.png",
+    "summary": "The goal was to get familiar with the simulator and control the car by sending CAN frames so that it could autonomously follow the road.",
+    "tags": ["CAN", "C"],
+    "links": { "code on demand": "https://gitlab.com/RalinoTech/cpe-lyon-tp-sat-2024", "demo": "" }
   },
   {
-    "id": "jetson-line-follower",
-    "title": "Jetson — Line follower",
-    "year": 2023,
-    "cover": "/images/jetson_line.jpg",
-    "summary": "Real-time image processing on Jetson Nano: filtering, trajectory detection, and motor control.",
-    "tags": [],
-    "links": { "code": "", "demo": "" }
+    "id": "Drone",
+    "title": "Exploring ROS with Drone Control",
+    "year": 2024,
+    "cover": "/images/Drone.png",
+    "summary": "Applied ROS fundamentals (nodes, topics, messages, actions, pub/sub) to drone control and QR-code detection",
+    "tags": ["ROS2", "Python"],
+    "links": { "code on demand": "https://gitlab.com/RalinoTech/cpe-lyon-tp-ros-2024", "demo": "https://www.youtube.com/watch?v=Ce6lg5v3Wqs" }
   },
   {
-    "id": "portfolio-site",
-    "title": "Portfolio site (this one)",
-    "year": 2025,
+    "id": "pepper",
+    "title": "Robot Pepper Development",
+    "year": 2024,
     "cover": "/images/Illustration_kevin.png",
-    "summary": "Personal website powered by Tailwind: accessibility, persistent dark mode, componentization, and lightweight CI.",
-    "tags": [],
-    "links": { "site": "/", "code": "" }
+    "summary": "Studying the functionality of the Pepper robot and programming it with Python 2.7.",
+    "tags": ["Python"],
+    "links": { "code on demand": "https://gitlab.com/RalinoTech/cpe-lyon-tp-ihr-2024", "demo": "https://youtu.be/qjC-WVYdb6E" }
   },
   {
-    "id": "gazebo-warehouse",
-    "title": "Warehouse simulation (Gazebo)",
+    "id": "vision",
+    "title": "Getting Started with Computer Vision",
     "year": 2024,
-    "cover": "/images/gazebo_warehouse.jpg",
-    "summary": "Warehouse modeling and multi-robot navigation scenarios under Gazebo and ROS2.",
-    "tags": [],
-    "links": { "code": "", "demo": "" }
+    "cover": "/images/muffinkevin.png",
+    "summary": "Discovering Computer Vision: From Basic Algorithms to Advanced Models like YOLO/SSD, with Custom Object Recognition",
+    "tags": ["Python", "Computer Vision", "Roboflow", "Ultralytics"],
+    "links": { "code on demand": "https://gitlab.com/RalinoTech/cpe-lyon-tp-vision-2024", "demo": "" }
   },
   {
-    "id": "sql-course",
-    "title": "Database project",
-    "year": 2022,
-    "cover": "/images/sql_project.jpg",
-    "summary": "Relational schema design, stored procedures, and indexing with PostgreSQL.",
-    "tags": [],
-    "links": { "code": "" }
+    "id": "motor",
+    "title": "Precise Motor Control Using STM32",
+    "year": 2024,
+    "cover": "/images/motor.png",
+    "summary": "Accurate control of a DC motor equipped with a magnetic encoder using a PID controller, for regulating speed, absolute position, and relative position based on IMU data.",
+    "tags": ["C", "STM32", "IMU", "Encoder"],
+    "links": { "code on demand":"https://gitlab.com/RalinoTech/systemes-motorises", "demo":"https://youtu.be/RdbibQQ8OuU" }
   }
 ]

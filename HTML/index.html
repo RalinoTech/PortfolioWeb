@@ -5,13 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title> BURNOT Kevin — Portfolio</title>
   <meta name="description" content="Portfolio de ★ Ton Nom — projets d'école et personnels, CV et contacts." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <script src="/JS/theme-init.js"></script>
-  <!-- Tailwind CDN (pratique pour démarrer). Pour un projet pro, installe Tailwind en build. -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
+
+  <!-- Tailwind CDN (pratique pour démarrer). Tailwind en build. -->
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <!-- <script>
     // Palette personnalisée minimale
     tailwind.config = {
       theme: {
@@ -27,16 +25,20 @@
       },
       darkMode: 'class'
     }
-  </script>
+  </script> -->
 
+<!-- <link rel="stylesheet" href="/dist/output.css"> -->
+<link rel="stylesheet" href="/tailwindcss/output.css">
 <link rel="stylesheet" href="/CSS/style.css">
+
+
 
 </head>
 <body class="bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100">
   <!-- Header / Nav -->
   <header class="sticky top-0 z-50 backdrop-blur supports-backdrop-blur:bg-white/70 dark:supports-backdrop-blur:bg-slate-950/70 border-b border-slate-200/60 dark:border-slate-800">
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="#hero" class="font-extrabold text-xl tracking-tight">Welcome</a>
+      <p class="font-extrabold text-xl tracking-tight"></p>
       <nav class="hidden md:flex items-center gap-2">
         <a href="#projects" class="px-3 py-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800">Projects</a>
         <a href="#about" class="px-3 py-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800">About</a>
@@ -68,7 +70,7 @@
     <div class="grid md:grid-cols-2 gap-8 items-center">
       <div>
       <div class="flex justify-center mb-6">
-          <img src="/images/PP_kevin.jpg" alt="Photo de Kevin Burnot" 
+          <img src="/images/PP_kevin.jpg" alt="Photo de Kevin Burnot"
           class="object-[60%_40%] w-56 h-56 rounded-full object-cover shadow-lg border-3 border-white dark:border-slate-900">
       </div>
         <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight">Hello, I am <span class="text-brand">Kevin BURNOT</span></h1>
@@ -103,6 +105,16 @@
     <div id="grid" data-mode="featured" data-featured-limit="3"
       class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6"></div>
     <script src="/JS/app-projects.js" defer></script>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-6xl mx-auto px-4 pb-16">
+    <div class="grid md:grid-cols-1 gap-8"> <!-- by default 3 -->
+      <div>
+        <h2 class="text-2xl font-bold">About</h2>
+        <p class="text-slate-600 dark:text-slate-300 mt-2">Passionate about science and technology, I’m a robotics enthusiast drawn to the wide range of topics it covers, embedded systems development, electronics, 3D design, and much more. This website showcases some of the projects I’ve worked on.</p>
+      </div>
+    </div>
   </section>
 
   <!-- Contact -->
