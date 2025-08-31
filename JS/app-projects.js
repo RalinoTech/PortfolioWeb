@@ -34,8 +34,15 @@
   // --- Card renderer (same everywhere)
   function projectCard(p) {
     const year = `<span class="text-xs text-slate-500">${p.year ?? ''}</span>`;
-    const img = p.cover
-      ? `<img src="${p.cover}" alt="Cover — ${p.title}" class="w-full h-44 object-contain bg-slate-200 dark:bg-slate-800" onerror="this.style.display='none'; this.parentElement.classList.add('bg-slate-200','dark:bg-slate-800');">`
+    let coverSrc = p.cover ? `${p.cover}` : '';
+    if (mode === 'all' && coverSrc) {
+      coverSrc = `../${coverSrc}`;
+    }
+
+    const img = coverSrc
+      ? `<img src="${coverSrc}" alt="Cover — ${p.title ?? ''}"
+          class="w-full h-44 object-contain bg-slate-200 dark:bg-slate-800"
+          onerror="this.style.display='none'; this.parentElement.classList.add('bg-slate-200','dark:bg-slate-800');">`
       : '';
     const tags = (p.tags || []).map(t => `<span class="px-2 py-1 rounded-full border text-xs">${t}</span>`).join('');
     const links = Object.entries(p.links || {})
