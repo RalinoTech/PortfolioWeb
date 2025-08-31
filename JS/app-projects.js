@@ -22,7 +22,7 @@
   // Load JSON (adjust path as needed)
   let PROJECTS = [];
   try {
-    const res = await fetch('../Data/projects.json', { cache: 'no-store' });
+    const res = await fetch(new URL('../Data/projects.json', import.meta.url), { cache: 'no-store' });
     if (!res.ok) throw new Error('Failed to load projects.json');
     PROJECTS = await res.json();
   } catch (err) {
