@@ -4,7 +4,7 @@
     "title": "3D Mapping — Autonomous Crawler",
     "year": 2025,
     "cover": "images/Mapping3D.png",
-    "summary": "3D environment mapping with an autonomous crawler: LiDAR acquisition, sensor fusion, point cloud generation and visualization.",
+    "summary": "Master's Degree Final Project: The goal was to perform 3D mapping using RTAB-Map, and then use the generated map to enable autonomous navigation.",
     "tags": ["Python", "ROS2", "Gazebo", "3D-Cam", "Jetson Nano"],
     "links": {
       "code": "https://gitlab.com/RalinoTech/web_cpe_lyon_tp_crawler_2025#",
