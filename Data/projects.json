@@ -4,7 +4,7 @@
     "title": "3D Mapping — Autonomous Crawler",
     "year": 2025,
     "cover": "images/Mapping3D.png",
-    "summary": "Master's Degree Final Project: The goal was to perform 3D mapping using RTAB-Map, and then use the generated map to enable autonomous navigation.",
+    "summary": "Master's Degree Final Project: The goal is to perform 3D mapping using RTAB-Map, and then use the generated map to enable autonomous navigation.",
     "tags": ["Python", "ROS2", "Gazebo", "3D-Cam", "Jetson Nano"],
     "links": {
       "code": "https://gitlab.com/RalinoTech/web_cpe_lyon_tp_crawler_2025#",
@@ -17,7 +17,7 @@
     "title": "Prototyping — Sorting Center",
     "year": 2025,
     "cover": "images/Prototypage.jpg",
-    "summary": "Design and prototyping of a sorting center: React UIs, specifications, user testing, and rapid iterations.",
+    "summary": "Design and prototyping of a sorting center: color-based sorting using 3D-printed parts and cardboard, with BLE connectivity to a mobile app.",
     "tags": ["Mechatronics", "ESP32", "Arduino C++", "3D-Modeling", "MIT-App-Inventor", "BLE", "Computer Vision"],
     "links": {
       "code": "https://gitlab.com/RalinoTech/web_cpe_lyon_tp_proto_2024#",
@@ -30,7 +30,7 @@
     "title": "Escape Room Development",
     "year": 2024,
     "cover": "images/Escape_game.png",
-    "summary": "Connected escape room development: Node/Express orchestrations, MongoDB persistence, devices and real-time logic.",
+    "summary": "Camera management and device orchestration with Node-RED and microcontrollers. Game development in C and Python, complemented by 3D modeling.",
     "tags": ["Node-RED", "Mechatronics", "ESP32", "Arduino C++", "3D-Modeling", "Python"],
     "links": {
       "code": "https://gitlab.com/RalinoTech/web_cpe_lyon_tp_escape_game_2024#",
